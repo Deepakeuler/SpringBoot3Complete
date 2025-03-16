@@ -8,6 +8,6 @@ public class DemoRestController {
     //expose "/" endpoint that will return "Hello World"
     @GetMapping("/")
     public String sayHello(){
-        return "Hello World";
+        return "Hello World!";
     }
 }

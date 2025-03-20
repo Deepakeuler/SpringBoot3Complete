@@ -10,4 +10,19 @@ public class DemoRestController {
     public String sayHello(){
         return "Hello World!";
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "Testing my dev tools";
+    }
+
+    @GetMapping("/test/testing")
+    public String testTesting(){
+        return "Testing my dev tools part 2";
+    }
+
+    @GetMapping("/layer2")
+    public String layer2(){
+        return "Layer 2";
+    }
 }
